@@ -1,0 +1,109 @@
+.section {
+  width: 90vw;
+  height: 600px;
+  margin: auto;
+  margin-top: 20px;
+}
+
+.testimonialHeading {
+  text-align: center;
+  margin-top: 15px;
+  display: flex;
+  flex-direction: column;
+}
+
+.testimonialHeading h1 {
+  font-size: 26px;
+  font-family: Arial, Helvetica, sans-serif;
+  font-weight: 600;
+}
+
+.text {
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  align-items: center;
+  gap: 5px;
+
+}
+
+.text p {
+  font-size: 20px;
+  font-family: Arial, Helvetica, sans-serif;
+  font-weight: 550;
+}
+
+.customer {
+  color: rgb(33, 144, 177);
+}
+
+.reviews {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  margin-top: 5px;
+  margin-left: 30px;
+  height: 450px;
+  width: 350px;
+  box-shadow: 1px 1px 5px whitesmoke;
+  border-radius: 7px;
+  margin-top: 20px;
+}
+
+.imgcontainer {
+  margin-top: 4px;
+  width: 100px;
+  height: 100px;
+  background: url(https://th.bing.com/th/id/OIP.0yfWj9N7jDwQ_ebD3Lk-VwHaHa?rs=1&pid=ImgDetMain);
+  background-position: 50% 50%;
+  background-size: cover;
+  border-radius: 50%;
+}
+
+.underline {
+  margin-top: 20px;
+  height: 4px;
+  width: 95px;
+  background-color: rgb(33, 144, 177);
+}
+
+.txtreview {
+  margin-left: 8px;
+  margin-top: 30px;
+}
+
+.name {
+  margin-top: 20px;
+  width: 230px;
+  margin-left: 50px;
+}
+
+.name h1 {
+  font-family: cursive;
+  font-weight: 700;
+  margin-left: 30px;
+}
+
+.name h6 {
+  font-family: cursive;
+  font-weight: 400;
+  margin-left: -8px;
+}
+
+.reviewcontainer {
+  display: flex;
+  flex-direction: row;
+  overflow-x: scroll;
+  overflow-y: hidden;
+  gap: 10px;
+  scrollbar-width: none;
+}
+
+.dikimg {
+  width: 100px;
+  height: 100px;
+  background-position: 50% 50%;
+  background-size: cover;
+  border-radius: 50%;
+}

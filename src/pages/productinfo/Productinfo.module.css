@@ -1,0 +1,125 @@
+.main {
+  height: 100vh;
+  width: 100%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.section {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: center;
+  height: 500px;
+  width: 900px;
+  gap: 30px;
+}
+
+.imgdiv {
+  height: 350px;
+  width: 350px;
+}
+
+.txtdiv {
+  height: 400px;
+  width: 400px;
+  display: flex;
+  flex-direction: column;
+  gap: 10px;
+}
+
+.ratinglinks {
+  margin-left: 8px;
+  display: flex;
+  flex-direction: row;
+  gap: 20px;
+}
+
+.fb {
+  display: flex;
+  flex-direction: row;
+  gap: 5px;
+  align-items: center;
+  justify-content: center;
+}
+
+.aboutproduct {
+  margin-top: 12px;
+  margin-left: 8px;
+  margin-right: 8px;
+  height: 156px;
+  border: 1px solid whitesmoke;
+  border-radius: 5px;
+}
+
+.aboutproduct p {
+  padding-left: 5px;
+  padding-top: 12px;
+
+}
+
+.brandname h1 {
+  font-size: 15px;
+  font-family: 'Times New Roman', Times, serif;
+  font-weight: 400;
+  padding-left: 10px;
+}
+
+.titlename h1 {
+  font-size: 20px;
+  font-family: Arial, Helvetica, sans-serif;
+  font-weight: 600;
+  padding-left: 10px;
+}
+
+.aboutproduct p {
+  font-size: 14px;
+  font-family: Arial, Helvetica, sans-serif;
+  font-weight: 200;
+  padding-left: 10px;
+}
+
+.twoinone {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+
+}
+
+.btns {
+  display: flex;
+  flex-direction: row;
+  gap: 20px;
+  align-items: center;
+  justify-content: center;
+}
+
+.iconmain {
+  margin-right: 25px;
+}
+
+.addtocartbtn {
+  background-color: rgb(33, 144, 177);
+  height: 40px;
+  width: 110px;
+  border-radius: 4px;
+}
+
+.price {
+  margin-left: 8px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.loveicon {
+  height: 25px;
+  width: 30px;
+}
+
+.productimg {
+  height: 100%;
+  width: 100%;
+  object-fit: cover;
+}
